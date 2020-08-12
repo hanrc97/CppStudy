@@ -24,7 +24,9 @@ int main()
 	cout << "a3[2]: " << a3[2] << " at " << &a3[2] << endl;
 	cout << "a4[2]: " << a4[2] << " at " << &a4[2] << endl;
 	//misdeed
-	a1[-2] = 20.2;
+	//a1[-2] = 20.2;
+	//avoid above:
+	a2.at(-2) = 20.2;
 	cout << "a1[-2]: " << a1[-2] << " at " << &a1[-2] << endl;
 	cout << "a3[2]: " << a3[2] << " at " << &a3[2] << endl;
 	cout << "a4[2]: " << a4[2] << " at " << &a4[2] << endl;
