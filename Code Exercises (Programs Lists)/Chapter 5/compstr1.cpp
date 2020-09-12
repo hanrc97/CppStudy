@@ -4,8 +4,11 @@
 int main()
 {
 	using namespace std;
-	char word[5] = "?ate";
-	for (char ch = 'a'; strcmp(word, "mate"); ch++)
+	char word[5] = "?oom";
+	for (char ch = 'a'; strcmp(word, "zoom"); ch++)
+	// strcmp(str1, str2)
+	// if str1 = str2, then the expression is false
+	// otherwise, the expression is true, the loop is going on.
 	{
 		cout << word << endl;
 		word[0] = ch;
