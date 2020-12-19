@@ -9,9 +9,9 @@ int main()
 	cin >> ch;
 	while (ch != '#')
 	{
-		cout << ch;
-		++count;
-		cin >> ch;
+		cout << ch; //cout the character
+		++count; //count the character
+		cin >> ch; // get the next character
 	}
 	cout << endl << count << " characters read\n";
 	return 0;
