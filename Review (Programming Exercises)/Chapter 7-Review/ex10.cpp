@@ -1,0 +1,1 @@
+// ex10.cpp -- design a calculate() function
